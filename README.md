@@ -16,23 +16,23 @@ This is a web application built using **Node.js, Express, and MongoDB**, deploye
 
 ---
 ## **Setup & Installation**
-### 1️⃣ Clone the Repository
+### 1) Clone the Repository
 ```sh
 git clone https://github.com/your-username/webfinal.git
 cd webfinal
 ```
-### 2️⃣ Install Dependencies
+### 2) Install Dependencies
 ```sh
 npm install
 ```
-### 3️⃣ Configure Environment Variables
+### 3) Configure Environment Variables
 Create a `.env` file in the root directory and add the following:
 ```env
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 ```
-### 4️⃣ Run Locally
+### 4) Run Locally
 ```sh
 npm start
 ```
