@@ -1,0 +1,103 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+h1, h2 {
+    color: #007bff;
+}
+#authForm, #taskForm, #taskList, #editTaskForm {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 7px;
+}
+.status-select {
+    margin-bottom: 20px;
+    margin-right: 6px;
+    padding: 9px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 7px;
+}
+#taskList {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.liTask{
+  border-bottom: 1px solid grey;
+  padding: 5px;
+}
+#userGreeting {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-weight: bold;
+}
+#editTaskForm {
+    display: none;
+}
+input[type="text"], input[type="email"], input[type="password"], input[type="date"] {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.edit-task, .delete-task {
+    background-color: #28a745;
+}
+.edit-task:hover, .delete-task:hover {
+    background-color: #218838;
+}
+.delete-task {
+    background-color: #dc3545;
+}
+.delete-task:hover {
+    background-color: #c82333;
+}
+
+#userPanel {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    gap: 12px; /* Добавляет расстояние между текстом и кнопкой */
+}
+
+#userGreeting {
+    margin-right: 80px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+#logoutButton {
+    margin-top: 4px;
+    padding: 7px 12px;
+    font-size: 0.9rem;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#logoutButton:hover {
+    background-color: #c82333;
+}
