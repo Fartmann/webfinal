@@ -162,6 +162,7 @@
 
             function showAdminButtons() {
                 document.getElementById('addTaskButton').style.display = 'inline-block';
+                document.getElementById('taskForm').style.display = 'block'; // Показываем форму добавления задач
                 document.querySelectorAll('.edit-task, .delete-task').forEach(button => {
                     button.style.display = 'inline-block';
                 });
@@ -170,6 +171,7 @@
             function hideAdminButtons() {
                 console.log("Hiding admin buttons");
                 document.getElementById('addTaskButton').style.display = 'none';
+                document.getElementById('taskForm').style.display = 'none'; // Скрываем всю форму добавления задач
                 document.querySelectorAll('.edit-task, .delete-task').forEach(button => {
                     console.log("Hiding button:", button);
                     button.style.display = 'none';
