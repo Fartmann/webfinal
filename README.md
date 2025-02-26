@@ -79,8 +79,6 @@ app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 - `Ability to create, delete and update (if you are admin) tasks to complete`
 
 ---
-
----
 ## **License**
 This project is licensed under the **MIT License**.
 
